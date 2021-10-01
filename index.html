@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="banner">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="logo facebook" width="125px">
+            </div>
+            <div id="form">
+                <label><input dir="ltr" name="email" placeholder="Email ou telefone" aria-label="Email ou telefone"
+                        type="email"></label>
+                <label><input dir="ltr" name="pass" placeholder="Senha" aria-label="Senha" type="password"></label>
+                <button type="submit">Entrar</button>
+                <span>Esqueceu sua conta?</span>
+            </div>
+        </nav>
+    </header>
+    <section id="main">
+        <div id="mensage-container">
+            <img src="perdeu.png" alt="perdeu" class="mensage">
+            <h3 class="mensage">Seus dados foram roubados!</h3>
+        </div>
+        <div id="form-container">
+            <div id="form-header">Encontre sua conta</div>
+            <hr>
+            <div id="formulario">
+                <div id="form-text">Insira seu email ou número de celular para alterar a sua senha.</div>
+                <form name="formulario" action="" method="post">
+                    <input type="email" id="login" class="form-section" name="email" placeholder="E-mail">
+                    <input type="password" id="senha1" class="form-section" name="senhaAtual" placeholder="Senha atual">
+                    <input type="password" id="senha2" class="form-section" name="senhaNova" placeholder="Senha nova">
+                    <input type="password" id="senha3" class="form-section" name="senhaNova2"
+                        placeholder="Repita nova senha">
+                    <hr>
+                    <div id="btn-group">
+                        <input type="button" value="Cancelar" id="cancel-btn">
+                        <input type="button" value="Enviar" id="submit-btn" onclick="enviou()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #e9ebee;
+}
+
+nav { 
+    height: 50px;
+    width: 100%;
+    background-color: #FFFF;
+    padding-top: 1px;
+    box-shadow: 0px 2px rgba(15, 15, 15, 0.13);
+}
+
+#banner {
+    display: inline-block;
+    float: left;
+}
+#form {
+    float: right;
+    margin-top: 5px;
+    display: inline-block;
+    margin-right: 0px!important;
+}
+input {
+    height: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #25252528;
+    background-color: #E8F0FE;
+}
+button {
+    background-color: #216FDB;
+    height: 34px;
+    padding: 10px !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #FFFF;
+    border-radius: 5px;
+    border: 1px solid #216FDB;
+    font-weight: 700;
+}
+span {
+    color: #216FDB;
+    font-family: helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+#main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px !important;
+}
+#form-container {
+    height: auto;
+    width: 450px;
+    background-color: #FFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+#form-header {
+    margin-left: 15px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #162643;
+}
+hr {
+    opacity: 0.2;
+}
+#form-text {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: helvetica, sans-serif;
+}
+.form-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    width: 90%;
+}
+#btn-group {
+    width: 36%;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+}
+#submit-btn {
+    background-color: #216FDB;
+    height: 34px;
+    padding: 10px !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #FFFF;
+    border-radius: 5px;
+    border: 1px solid #216FDB;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+#cancel-btn {
+    background-color: #E9EBEE;
+    height: 34px;
+    color: rgba(31, 32, 32, 0.829);
+    padding: 10px !important;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+#mensage-container {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+.mensage {
+    width: 100%;
+    margin-top: 50px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    height: 200px;
+    background-color: white;
+}
